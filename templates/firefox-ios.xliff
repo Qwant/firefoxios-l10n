@@ -322,6 +322,22 @@
         <source>Set as Default Browser</source>
         <note>Menu option for setting Firefox as default browser.</note>
       </trans-unit>
+      <trans-unit id="DefaultBrowserOnboarding.Qwant.Title" xml:space="preserve">
+          <source>Make the Qwant app your default browser</source>
+          <note>Title to help users understand that they can set Qwant as their default browser.</note>
+      </trans-unit>
+      <trans-unit id="DefaultBrowserOnboarding.Qwant.Description" xml:space="preserve">
+          <source>Set links to open automatically in Qwant!</source>
+          <note>Description to help users understand that they can set Qwant as their default browser.</note>
+      </trans-unit>
+      <trans-unit id="DefaultBrowserOnboarding.Qwant.ButtonSettings" xml:space="preserve">
+          <source>Go to Settings</source>
+          <note>Button string to open settings that allows user to switch their default browser to Qwant.</note>
+      </trans-unit>
+      <trans-unit id="DefaultBrowserOnboarding.Qwant.ButtonIgnore" xml:space="preserve">
+          <source>Ignore</source>
+          <note>Button string to ignore the default browser capability.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Shared/en.lproj/ErrorPages.strings" source-language="en" datatype="plaintext">
@@ -470,7 +486,182 @@
         <source>Turn on Sync…</source>
         <note>The button that opens the sign in page for sync. See http://mzl.la/1T8gxwo</note>
       </trans-unit>
+      <trans-unit id="Qwant.Intro.Welcome.Title" xml:space="preserve">
+        <source>Welcome to Qwant, dear unknown user</source>
+        <note>Title for the first panel 'Welcome' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.Welcome.Subtitle" xml:space="preserve">
+        <source>Search in complete privacy:</source>
+        <note>Subtitle for the first panel 'Welcome' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.Welcome.Bullet1" xml:space="preserve">
+        <source>Zero tracking of your searches</source>
+        <note>Bullet point #1 for the first panel 'Welcome' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.Welcome.Bullet2" xml:space="preserve">
+        <source>Zero advertising tracking</source>
+        <note>Bullet point #2 for the first panel 'Welcome' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.Welcome.Bullet3" xml:space="preserve">
+        <source>Zero sale of your personal data</source>
+        <note>Bullet point #3 for the first panel 'Welcome' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.Welcome.DefaultBrowser" xml:space="preserve">
+        <source>Set as default browser</source>
+        <note>Button to invite the user to set Qwant as their default browser for the first panel 'Welcome' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.Welcome.Ignore" xml:space="preserve">
+        <source>Ignore</source>
+        <note>Button to invite the user to go to the next screen for the first panel 'Welcome' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.Protection.Title" xml:space="preserve">
+        <source>Surf safely on all websites</source>
+        <note>Title for the second panel 'Protection' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.Protection.Bullet1" xml:space="preserve">
+        <source>Fewer cookies, no more intrusive banners!</source>
+        <note>Bullet point #1 for the second panel 'Protection' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.Protection.Bullet2" xml:space="preserve">
+        <source>Fewer trackers, finally free!</source>
+        <note>Bullet point #2 for the second panel 'Protection' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.Protection.Subtitle" xml:space="preserve">
+        <source>Check us out and try your first search!</source>
+        <note>Subtitle for the second panel 'Protection' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.Protection.StartBrowsing" xml:space="preserve">
+        <source>Let's get started!</source>
+        <note>Button to invite the user to start browsing for the second panel 'Protection' in the First Run tour.</note>
+      </trans-unit>
     </body>
+  </file>
+  <file original="Shared/en.lproj/QwantTrackingProtection.strings" source-language="en" datatype="plaintext">
+      <header>
+          <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.2.1" build-num="13C100"></tool>
+      </header>
+      <body>
+          <trans-unit id="Qwant.TrackingProtection.ConnectionSecure" xml:space="preserve">
+              <source>Connection is secure</source>
+              <note>Header - SSL Cert status when the connection is secured</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.ConnectionNotSecure" xml:space="preserve">
+              <source>Connection is not secure</source>
+              <note>Header - SSL Cert status when the connection is not secured</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.LocalProtection.EnabledTitle" xml:space="preserve">
+              <source>Protection enabled</source>
+              <note>Green title when the tracking protection is enabled for the current visited website</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.LocalProtection.EnablingTitle" xml:space="preserve">
+              <source>Enabling...</source>
+              <note>Pale green title when the tracking protection is enabling for the current visited website</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.LocalProtection.DisablingTitle" xml:space="preserve">
+              <source>Disabling...</source>
+              <note>Pale red title when the tracking protection is disabling for the current visited website</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.LocalProtection.LoadingSubtitle" xml:space="preserve">
+              <source>This operation can take up to 5 seconds, please wait.</source>
+              <note>Gray subtitle when the tracking protection is either enabling or disabling for the current visited website</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.LocalProtection.LongerLoadingSubtitle" xml:space="preserve">
+              <source>Hang tight. We're almost there...</source>
+              <note>Gray subtitle when the tracking protection is either enabling or disabling for the current visited website</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.LocalProtection.DisabledTitle" xml:space="preserve">
+              <source>Protection disabled</source>
+              <note>Red title when the tracking protection is disabled for the current visited website</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.LocalProtection.EnabledSubtitle" xml:space="preserve">
+              <source>A problem on this website? Try to deactivate.</source>
+              <note>Gray subtitle when the tracking protection is enabled for the current visited website</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.LocalProtection.DisabledSubtitle" xml:space="preserve">
+              <source>Deactivated for this website.</source>
+              <note>Gray subtitle when the tracking protection is disabled for the current visited website</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.LocalProtection.BlockedItems" xml:space="preserve">
+              <source>Blocked items</source>
+              <note>Row title label to explain that the righthand-sight of the cell represents the # of blocked items for the current visited website</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.ProtectionLevel.Title" xml:space="preserve">
+              <source>Level of protection</source>
+              <note>Row title label to explain that the righthand-sight of the cell represents the current protection level</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.ProtectionLevel.StandardTitle" xml:space="preserve">
+              <source>Standard</source>
+              <note>Standard protection level</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.ProtectionLevel.StandardDescription" xml:space="preserve">
+              <source>Blocks most trackers efficiently</source>
+              <note>Description of the standard protection level</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.ProtectionLevel.StrictTitle" xml:space="preserve">
+              <source>Strict</source>
+              <note>Strict protection level</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.ProtectionLevel.StrictDescription" xml:space="preserve">
+              <source>Blocks all trackers, may affect some sites</source>
+              <note>Description of the strict protection level</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.ProtectionLevel.DisabledTitle" xml:space="preserve">
+              <source>Disabled</source>
+              <note>Disabled protection level</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.ProtectionLevel.DisabledDescription" xml:space="preserve">
+              <source>The browsing protection is disabled</source>
+              <note>Description of the disabled protection level</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.Statistics.LastThirtyDays" xml:space="preserve">
+              <source>Last 30 days</source>
+              <note>Header of the statistics section</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.Statistics.ItemsBlocked" xml:space="preserve">
+              <source>Blocked items</source>
+              <note>Represents the # of items blocked by the tracking protection</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.Statistics.TimeSaved" xml:space="preserve">
+              <source>Saved time</source>
+              <note>Represents the time saved by the tracking protection</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.Statistics.SeeDetails" xml:space="preserve">
+              <source>See details</source>
+              <note>Buttons to redirect to the details of the statistics</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.LocalProtection.ScreenTitle" xml:space="preserve">
+              <source>Blocked items</source>
+              <note>Title of the local protection details page</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.LocalProtection.TrackersTitle" xml:space="preserve">
+              <source>Trackers</source>
+              <note>Title to describle the value underneath it is the number of items blocked within the current website</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.LocalProtection.DomainsTitle" xml:space="preserve">
+              <source>Domains</source>
+              <note>Title to describle the value underneath it is the number of domains blocked within the current website</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.Statistics.ScreenTitle" xml:space="preserve">
+              <source>Cumulative statistics</source>
+              <note>Title of the statistics details page</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.GlobalProtection.ScreenTitle" xml:space="preserve">
+              <source>Qwant VIPrivacy</source>
+              <note>Title of the global tracking protection page</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.GlobalProtection.Help" xml:space="preserve">
+              <source>Help</source>
+              <note>Header of the help section</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.GlobalProtection.About" xml:space="preserve">
+              <source>Learn about Qwant VIPrivacy</source>
+              <note>Cell title</note>
+          </trans-unit>
+          <trans-unit id="Qwant.TrackingProtection.GlobalProtection.Experience" xml:space="preserve">
+              <source>Share your experience</source>
+              <note>Cell title</note>
+          </trans-unit>
+      </body>
   </file>
   <file original="Shared/en.lproj/Localizable.strings" source-language="en" datatype="plaintext">
     <header>
@@ -3089,7 +3280,7 @@
         <note>Dismiss button for the tracker protection alert.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.Alert.Description" xml:space="preserve">
-        <source>If a site doesn’t work as expected, tap the shield in the address bar and turn off Enhanced Tracking Protection for that page.</source>
+        <source>If a site doesn’t work as expected, tap the green icon in the address bar and turn off Qwant VIPrivacy for that page.</source>
         <note>Decription for the tracker protection alert.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.Alert.Title" xml:space="preserve">
@@ -3125,7 +3316,7 @@
         <note>Additional information about your Enhanced Tracking Protection</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionLevel.Footer" xml:space="preserve">
-        <source>If a site doesn’t work as expected, tap the shield in the address bar and turn off Enhanced Tracking Protection for that page.</source>
+        <source>If a site doesn’t work as expected, tap the green icon in the address bar and turn off Qwant VIPrivacy for that page.</source>
         <note>Footer information for tracker protection level.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionLevelStandard.Description" xml:space="preserve">
