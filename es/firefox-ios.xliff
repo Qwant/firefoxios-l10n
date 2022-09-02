@@ -1,5 +1,362 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="Shared/en.lproj/Qwant.strings" source-language="en" target-language="es" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
+    </header>
+    <body>
+      <trans-unit id="DefaultBrowserOnboarding.Qwant.Title" xml:space="preserve">
+        <source>Make the Qwant app your default browser</source>
+        <target>Make the Qwant app your default browser</target>
+        <note>Title to help users understand that they can set Qwant as their default browser.</note>
+      </trans-unit>
+      <trans-unit id="DefaultBrowserOnboarding.Qwant.Description" xml:space="preserve">
+        <source>Set links to open automatically in Qwant!</source>
+        <target>Set links to open automatically in Qwant!</target>
+        <note>Description to help users understand that they can set Qwant as their default browser.</note>
+      </trans-unit>
+      <trans-unit id="DefaultBrowserOnboarding.Qwant.ButtonSettings" xml:space="preserve">
+        <source>Go to Settings</source>
+        <target>Go to Settings</target>
+        <note>Button string to open settings that allows user to switch their default browser to Qwant.</note>
+      </trans-unit>
+      <trans-unit id="DefaultBrowserOnboarding.Qwant.ButtonIgnore" xml:space="preserve">
+        <source>Ignore</source>
+        <target>Ignore</target>
+        <note>Button string to ignore the default browser capability.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.General.Ignore" xml:space="preserve">
+        <source>Ignore</source>
+        <target>Ignora</target>
+        <note>Button to invite the user to ignore the onboarding of the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.General.Next" xml:space="preserve">
+        <source>Next</source>
+        <target>Siguiente</target>
+        <note>Button to invite the user to go to the next screen for the first panel 'Welcome' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.General.LetsGo" xml:space="preserve">
+        <source>Let's get started!</source>
+        <target>¡Vamos!</target>
+        <note>Title of the Let's go button.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.General.Settings" xml:space="preserve">
+        <source>Open Settings</source>
+        <target>Abrir la configuración</target>
+        <note>Title of the settings button.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.General.Later" xml:space="preserve">
+        <source>Later</source>
+        <target>Después</target>
+        <note>Title of the Later button.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.Welcome.Title" xml:space="preserve">
+        <source>Welcome to Qwant, dear unknown user</source>
+        <target>Bienvenido a Qwant querido anónimo</target>
+        <note>Title for the first panel 'Welcome' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.Welcome.Subtitle" xml:space="preserve">
+        <source>Search in complete privacy:</source>
+        <target>Aquí puede buscar con total confidencialidad:</target>
+        <note>Subtitle for the first panel 'Welcome' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.Welcome.Bullet1" xml:space="preserve">
+        <source>**Zero** tracking of your searches</source>
+        <target>**Cero** seguimiento de tus búsquedas</target>
+        <note>Bullet point #1 for the first panel 'Welcome' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.Welcome.Bullet2" xml:space="preserve">
+        <source>**Zero** advertising tracking</source>
+        <target>**Cero** seguimiento de publicidad</target>
+        <note>Bullet point #2 for the first panel 'Welcome' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.Welcome.Bullet3" xml:space="preserve">
+        <source>**Zero** sale of your personal data</source>
+        <target>**Cero** venta de tus datos personales</target>
+        <note>Bullet point #3 for the first panel 'Welcome' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.QwantVIP.Title" xml:space="preserve">
+        <source>Surf safely with Qwant VIPrivacy</source>
+        <target>Navega con seguridad con Qwant VIPrivacy</target>
+        <note>Title for the second panel 'Qwant VIP' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.QwantVIP.Bullet1" xml:space="preserve">
+        <source>Fewer cookies, no more intrusive banners!</source>
+        <target>¡Menos cookies y no más banners intrusivos!</target>
+        <note>Bullet point #1 for the second panel 'Qwant VIP' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.QwantVIP.Bullet2" xml:space="preserve">
+        <source>Fewer trackers, finally free!</source>
+        <target>Menos rastreadores, ¡por fin libre!</target>
+        <note>Bullet point #2 for the second panel 'Qwant VIP' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.DefaultBrowser.Title" xml:space="preserve">
+        <source>Choose Qwant as your default browser app</source>
+        <target>Elige Qwant como tu aplicación de navegación por defecto</target>
+        <note>Title for the third panel 'Default Browser' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.DefaultBrowser.Subtitle" xml:space="preserve">
+        <source>All links you click on will automatically open in the Qwant app.</source>
+        <target>Todos los enlaces en los que hagas clic se abrirán automáticamente en la aplicación Qwant.</target>
+        <note>Subtitle for the third panel 'Default Browser' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.DefaultBrowser.Bullet1" xml:space="preserve">
+        <source>1. Open **Settings**</source>
+        <target>1. Abra la sección de **Configuración**</target>
+        <note>Bullet point #1 for the third panel 'Default Browser' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.DefaultBrowser.Bullet2" xml:space="preserve">
+        <source>2. Select **Default browser app**</source>
+        <target>2. Seleccione **Aplicación de navegación por defecto**</target>
+        <note>Bullet point #2 for the third panel 'Default Browser' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.Intro.DefaultBrowser.Bullet3" xml:space="preserve">
+        <source>3. Select **Qwant**</source>
+        <target>3. Seleccione **Qwant**</target>
+        <note>Bullet point #3 for the third panel 'Default Browser' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.ConnectionSecure" xml:space="preserve">
+        <source>Connection is secure</source>
+        <target>Conexión segura</target>
+        <note>Header - SSL Cert status when the connection is secured</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.ConnectionNotSecure" xml:space="preserve">
+        <source>Connection is not secure</source>
+        <target>Conexión no segura</target>
+        <note>Header - SSL Cert status when the connection is not secured</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.LocalProtection.EnabledTitle" xml:space="preserve">
+        <source>Protection enabled</source>
+        <target>Protection enabled</target>
+        <note>Green title when the tracking protection is enabled for the current visited website</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.LocalProtection.EnablingTitle" xml:space="preserve">
+        <source>Enabling...</source>
+        <target>Enabling...</target>
+        <note>Pale green title when the tracking protection is enabling for the current visited website</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.LocalProtection.DisablingTitle" xml:space="preserve">
+        <source>Disabling...</source>
+        <target>Disabling...</target>
+        <note>Pale red title when the tracking protection is disabling for the current visited website</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.LocalProtection.LoadingSubtitle" xml:space="preserve">
+        <source>This operation can take up to 5 seconds, please wait.</source>
+        <target>This operation can take up to 5 seconds, please wait.</target>
+        <note>Gray subtitle when the tracking protection is either enabling or disabling for the current visited website</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.LocalProtection.LongerLoadingSubtitle" xml:space="preserve">
+        <source>Hang tight. We're almost there...</source>
+        <target>Hang tight. We're almost there...</target>
+        <note>Gray subtitle when the tracking protection is either enabling or disabling for the current visited website</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.LocalProtection.DisabledTitle" xml:space="preserve">
+        <source>Protection disabled</source>
+        <target>Protection disabled</target>
+        <note>Red title when the tracking protection is disabled for the current visited website</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.LocalProtection.EnabledSubtitle" xml:space="preserve">
+        <source>A problem on this website? Try to deactivate.</source>
+        <target>A problem on this website? Try to deactivate.</target>
+        <note>Gray subtitle when the tracking protection is enabled for the current visited website</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.LocalProtection.DisabledSubtitle" xml:space="preserve">
+        <source>Deactivated for this website.</source>
+        <target>Deactivated for this website.</target>
+        <note>Gray subtitle when the tracking protection is disabled for the current visited website</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.LocalProtection.BlockedItems" xml:space="preserve">
+        <source>Blocked items</source>
+        <target>Blocked items</target>
+        <note>Row title label to explain that the righthand-sight of the cell represents the # of blocked items for the current visited website</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.ProtectionLevel.Title" xml:space="preserve">
+        <source>Level of protection</source>
+        <target>Level of protection</target>
+        <note>Row title label to explain that the righthand-sight of the cell represents the current protection level</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.ProtectionLevel.StandardTitle" xml:space="preserve">
+        <source>Standard</source>
+        <target>Estándar</target>
+        <note>Standard protection level</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.ProtectionLevel.StandardDescription" xml:space="preserve">
+        <source>Blocks most trackers efficiently</source>
+        <target>Blocks most trackers efficiently</target>
+        <note>Description of the standard protection level</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.ProtectionLevel.StrictTitle" xml:space="preserve">
+        <source>Strict</source>
+        <target>Estricta</target>
+        <note>Strict protection level</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.ProtectionLevel.StrictDescription" xml:space="preserve">
+        <source>Blocks all trackers, may affect some sites</source>
+        <target>Blocks all trackers, may affect some sites</target>
+        <note>Description of the strict protection level</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.ProtectionLevel.DisabledTitle" xml:space="preserve">
+        <source>Disabled</source>
+        <target>Disabled</target>
+        <note>Disabled protection level</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.ProtectionLevel.DisabledDescription" xml:space="preserve">
+        <source>The browsing protection is disabled</source>
+        <target>The browsing protection is disabled</target>
+        <note>Description of the disabled protection level</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.Statistics.LastThirtyDays" xml:space="preserve">
+        <source>Last 30 days</source>
+        <target>Last 30 days</target>
+        <note>Header of the statistics section</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.Statistics.ItemsBlocked" xml:space="preserve">
+        <source>Blocked items</source>
+        <target>Blocked items</target>
+        <note>Represents the # of items blocked by the tracking protection</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.Statistics.TimeSaved" xml:space="preserve">
+        <source>Saved time</source>
+        <target>Saved time</target>
+        <note>Represents the time saved by the tracking protection</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.Statistics.SeeDetails" xml:space="preserve">
+        <source>See details</source>
+        <target>See details</target>
+        <note>Buttons to redirect to the details of the statistics</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.LocalProtection.ScreenTitle" xml:space="preserve">
+        <source>Blocked items</source>
+        <target>Blocked items</target>
+        <note>Title of the local protection details page</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.LocalProtection.TrackersTitle" xml:space="preserve">
+        <source>Trackers</source>
+        <target>Trackers</target>
+        <note>Title to describle the value underneath it is the number of items blocked within the current website</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.LocalProtection.DomainsTitle" xml:space="preserve">
+        <source>Domains</source>
+        <target>Domains</target>
+        <note>Title to describle the value underneath it is the number of domains blocked within the current website</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.Statistics.ScreenTitle" xml:space="preserve">
+        <source>Cumulative statistics</source>
+        <target>Cumulative statistics</target>
+        <note>Title of the statistics details page</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.GlobalProtection.ScreenTitle" xml:space="preserve">
+        <source>Qwant VIPrivacy</source>
+        <target>Qwant VIPrivacy</target>
+        <note>Title of the global tracking protection page</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.GlobalProtection.Help" xml:space="preserve">
+        <source>Help</source>
+        <target>Ayuda</target>
+        <note>Header of the help section</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.GlobalProtection.About" xml:space="preserve">
+        <source>Learn about Qwant VIPrivacy</source>
+        <target>Learn about Qwant VIPrivacy</target>
+        <note>Cell title</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.GlobalProtection.Experience" xml:space="preserve">
+        <source>Share your experience</source>
+        <target>Share your experience</target>
+        <note>Cell title</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.LocalProtection.Inactive" xml:space="preserve">
+        <source>Inactive</source>
+        <target>Inactive</target>
+        <note>Local protection is deactivated for the currently visited website</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.LocalProtection.OnDomain" xml:space="preserve">
+        <source>on %@</source>
+        <target>on %@</target>
+        <note>Represents the currently visited domain. example: on mywebsite.com</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.Information.Title" xml:space="preserve">
+        <source>Information</source>
+        <target>Information</target>
+        <note>Title of the Information row</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.Feedback.Title" xml:space="preserve">
+        <source>Feedback</source>
+        <target>Feedback</target>
+        <note>Title of the Feedback row</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.LocalProtection.TrackersCookiesTitle" xml:space="preserve">
+        <source>Trackers/Cookies</source>
+        <target>Trackers/Cookies</target>
+        <note>Header title</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.LocalProtection.EmptyListTrackersBlocked" xml:space="preserve">
+        <source>There is nothing to block here, this is a pretty nice website!</source>
+        <target>There is nothing to block here, this is a pretty nice website!</target>
+        <note>Placeholder text when the # of blocked trackers is null</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.ProtectionLevel.Reactivate" xml:space="preserve">
+        <source>Reactivate protection</source>
+        <target>Reactivate protection</target>
+        <note>Button title to reactivate protection</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.Statistics.Reactivate" xml:space="preserve">
+        <source>Reactivate statistics</source>
+        <target>Reactivate statistics</target>
+        <note>Button title to reactivate stats</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.Statistics.Deactivate" xml:space="preserve">
+        <source>Deactivate statistics</source>
+        <target>Deactivate statistics</target>
+        <note>Button title to deactivate stats</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.Statistics.DeactivateDetails" xml:space="preserve">
+        <source>Deactivate statistics will result in deleting all cumulated statistics so far.</source>
+        <target>Deactivate statistics will result in deleting all cumulated statistics so far.</target>
+        <note>Confirmation text before deactivating stats</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.Statistics.Deactivate.Confirm" xml:space="preserve">
+        <source>Confirm deactivation</source>
+        <target>Confirm deactivation</target>
+        <note>Confirmation action button title</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.Statistics.Deactivate.Cancel" xml:space="preserve">
+        <source>Cancel</source>
+        <target>Cancel</target>
+        <note>Cancel action button title</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.Statistics.DeactivateForNow" xml:space="preserve">
+        <source>Currently disabled</source>
+        <target>Currently disabled</target>
+        <note>Placeholder text explaining that stats are deactivated</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.Statistics.Delete" xml:space="preserve">
+        <source>Delete</source>
+        <target>Delete</target>
+        <note>Button title to delete stats</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.Statistics.JustActivated" xml:space="preserve">
+        <source>Statistics activated! Start browsing the web, and your numbers will be displayed here.</source>
+        <target>Statistics activated! Start browsing the web, and your numbers will be displayed here.</target>
+        <note>Placeholder text explaining that stats has just been reactivated</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.Statistics.Empty" xml:space="preserve">
+        <source>Nothing yet</source>
+        <target>Nothing yet</target>
+        <note>Placeholder text explaining that stats are empty</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.Information.GetToKnow" xml:space="preserve">
+        <source>Learn about Qwant VIPrivacy</source>
+        <target>Learn about Qwant VIPrivacy</target>
+        <note>Title of the Learn More row</note>
+      </trans-unit>
+      <trans-unit id="Qwant.TrackingProtection.Information.DeveloperNotes" xml:space="preserve">
+        <source>Developer Notes</source>
+        <target>Developer Notes</target>
+        <note>Title of the Github row</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="Client/en.lproj/InfoPlist.strings" source-language="en" target-language="es" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
@@ -7,12 +364,12 @@
     <body>
       <trans-unit id="NSCameraUsageDescription" xml:space="preserve">
         <source>Firefox uses your camera to scan QR codes and take photos and video.</source>
-        <target>Firefox usa tu cámara para escanear códigos QR y tomar fotos y videos.</target>
+        <target>Qwant usa tu cámara para escanear códigos QR y tomar fotos y videos.</target>
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription" xml:space="preserve">
         <source>Firefox requires Face ID to access your saved logins.</source>
-        <target>Firefox requiere Face ID para acceder a tus inicios de sesión guardados.</target>
+        <target>Qwant requiere Face ID para acceder a tus inicios de sesión guardados.</target>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription" xml:space="preserve">
@@ -219,7 +576,7 @@
       </trans-unit>
       <trans-unit id="DefaultBrowserCard.Description" xml:space="preserve">
         <source>Set links from websites, emails, and Messages to open automatically in Firefox.</source>
-        <target>Configura enlaces de sitios web, correos electrónicos y mensajes para que se abran automáticamente en Firefox.</target>
+        <target>Configura enlaces de sitios web, correos electrónicos y mensajes para que se abran automáticamente en Qwant.</target>
         <note>Description for small home tab banner shown that allows user to switch their default browser to Firefox.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserCard.Title" xml:space="preserve">
@@ -244,7 +601,7 @@
       </trans-unit>
       <trans-unit id="DefaultBrowserOnboarding.Description3" xml:space="preserve">
         <source>3. Select Firefox</source>
-        <target>3. Seleccionar Firefox</target>
+        <target>3. Seleccionar Qwant</target>
         <note>Description for default browser onboarding card.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserOnboarding.Screenshot" xml:space="preserve">
@@ -327,7 +684,7 @@
       </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Title.v2" xml:space="preserve">
         <source>Welcome to Firefox</source>
-        <target>Te damos la bienvenida a Firefox</target>
+        <target>Te damos la bienvenida a Qwant</target>
         <note>Title for the first panel 'Welcome' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Start Browsing" xml:space="preserve">
@@ -855,7 +1212,7 @@
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Description" xml:space="preserve">
         <source>The owner of %@ has configured their website improperly. To protect your information from being stolen, Firefox has not connected to this website.</source>
-        <target>El dueño de %@ ha configurado su sitio web incorrectamente. Para evitar que roben tu información, Firefox no se ha conectado a este sitio web.</target>
+        <target>El dueño de %@ ha configurado su sitio web incorrectamente. Para evitar que roben tu información, Qwant no se ha conectado a este sitio web.</target>
         <note>Warning text on the certificate error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Title" xml:space="preserve">
@@ -890,7 +1247,7 @@
       </trans-unit>
       <trans-unit id="Firefox.HomePage.Title" xml:space="preserve">
         <source>Firefox Home Page</source>
-        <target>Página de inicio de Firefox</target>
+        <target>Página de inicio de Qwant</target>
         <note>Title for firefox about:home page in tab history list</note>
       </trans-unit>
       <trans-unit id="FirefoxHome.CustomizeHomeButton.Title" xml:space="preserve">
@@ -956,7 +1313,7 @@
       </trans-unit>
       <trans-unit id="FxA.FirefoxAccount" xml:space="preserve">
         <source>Firefox Account</source>
-        <target>Cuenta de Firefox</target>
+        <target>Cuenta de Qwant</target>
         <note>Settings section title for Firefox Account</note>
       </trans-unit>
       <trans-unit id="FxA.ManageAccount" xml:space="preserve">
@@ -976,7 +1333,7 @@
       </trans-unit>
       <trans-unit id="FxAPush_DeviceConnected_body" xml:space="preserve">
         <source>Firefox Sync has connected to %@</source>
-        <target>Firefox Sync se ha conectado a %@</target>
+        <target>Qwant Sync se ha conectado a %@</target>
         <note>Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device.</note>
       </trans-unit>
       <trans-unit id="FxAPush_DeviceConnected_title" xml:space="preserve">
@@ -986,7 +1343,7 @@
       </trans-unit>
       <trans-unit id="FxAPush_DeviceDisconnected_ThisDevice_body" xml:space="preserve">
         <source>This device has been successfully disconnected from Firefox Sync.</source>
-        <target>Este dispositivo se ha desconectado correctamente de Firefox Sync.</target>
+        <target>Este dispositivo se ha desconectado correctamente de Qwant Sync.</target>
         <note>Body of a notification displayed when this device has been disconnected from FxA by another device.</note>
       </trans-unit>
       <trans-unit id="FxAPush_DeviceDisconnected_ThisDevice_title" xml:space="preserve">
@@ -996,7 +1353,7 @@
       </trans-unit>
       <trans-unit id="FxAPush_DeviceDisconnected_UnknownDevice_body" xml:space="preserve">
         <source>A device has disconnected from Firefox Sync</source>
-        <target>Se ha desconectado un dispositivo de Firefox Sync</target>
+        <target>Se ha desconectado un dispositivo de Qwant Sync</target>
         <note>Body of a notification displayed when unnamed device has been disconnected from FxA.</note>
       </trans-unit>
       <trans-unit id="FxAPush_DeviceDisconnected_body" xml:space="preserve">
@@ -1011,6 +1368,7 @@
       </trans-unit>
       <trans-unit id="FxHomepage.Wallpaper.ButtonLabel.v99" xml:space="preserve">
         <source>Firefox logo, change the wallpaper.</source>
+        <target>Qwant logo, change the wallpaper.</target>
         <note>On the firefox homepage, the string read by the voice over prompt for accessibility, for the button which changes the wallpaper</note>
       </trans-unit>
       <trans-unit id="Help" xml:space="preserve">
@@ -1065,7 +1423,7 @@
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptySyncedTabsState.Title" xml:space="preserve">
         <source>Firefox Sync</source>
-        <target>Firefox Sync</target>
+        <target>Qwant Sync</target>
         <note>Title for the empty synced tabs state in the History Panel</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.HistoryBackButton.Title" xml:space="preserve">
@@ -1372,6 +1730,7 @@
       </trans-unit>
       <trans-unit id="Logins.PasscodeRequirement.Warning" xml:space="preserve">
         <source>To use the AutoFill feature for Firefox, you must have a device passcode enabled.</source>
+        <target>To use the AutoFill feature for Qwant, you must have a device passcode enabled.</target>
         <note>Warning message shown when you try to enable or use native AutoFill without a device passcode setup</note>
       </trans-unit>
       <trans-unit id="Logins.WelcomeView.Tagline" xml:space="preserve">
@@ -1380,6 +1739,7 @@
       </trans-unit>
       <trans-unit id="Logins.WelcomeView.Title2" xml:space="preserve">
         <source>AutoFill Firefox Passwords</source>
+        <target>AutoFill Qwant Passwords</target>
         <note>Label displaying welcome view title</note>
       </trans-unit>
       <trans-unit id="Logins.WelcomeView.TurnOnAutoFill" xml:space="preserve">
@@ -1433,7 +1793,7 @@
       </trans-unit>
       <trans-unit id="LoginsList.NoLoginsFound.Description" xml:space="preserve">
         <source>Saved logins will show up here. If you saved your logins to Firefox on a different device, sign in to your Firefox Account.</source>
-        <target>Las credenciales guardadas se mostrarán aquí. Si guardaste tus credenciales en Firefox en un dispositivo diferente, conéctate a tu cuenta de Firefox.</target>
+        <target>Las credenciales guardadas se mostrarán aquí. Si guardaste tus credenciales en Qwant en un dispositivo diferente, conéctate a tu cuenta de Qwant.</target>
         <note>Label shown when there are no logins to list</note>
       </trans-unit>
       <trans-unit id="LoginsList.NoLoginsFound.Title" xml:space="preserve">
@@ -1473,7 +1833,7 @@
       </trans-unit>
       <trans-unit id="Looks like Firefox crashed previously. Would you like to restore your tabs?" xml:space="preserve">
         <source>Looks like Firefox crashed previously. Would you like to restore your tabs?</source>
-        <target>Parece que Firefox se cerró inesperadamente. ¿Te gustaría restaurar tus pestañas?</target>
+        <target>Parece que Qwant se cerró inesperadamente. ¿Te gustaría restaurar tus pestañas?</target>
         <note>Restore Tabs Prompt Description</note>
       </trans-unit>
       <trans-unit id="Mark as Read" xml:space="preserve">
@@ -1815,10 +2175,12 @@
       </trans-unit>
       <trans-unit id="Onboarding.WallpaperTitle.v102" xml:space="preserve">
         <source>Choose a Firefox Wallpaper</source>
+        <target>Choose a Qwant Wallpaper</target>
         <note>Title for the wallpaper onboarding page in our Onboarding screens. This describes to the user that they can choose different wallpapers.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Welcome.Description.v106" xml:space="preserve">
         <source>Firefox puts people over profits and defends your privacy by default.</source>
+        <target>Qwant puts people over profits and defends your privacy by default.</target>
         <note>String used to describes the description of what Firefox is on the welcome onboarding page for 106 version in our Onboarding screens.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Welcome.Title.v106" xml:space="preserve">
@@ -1832,7 +2194,7 @@
       </trans-unit>
       <trans-unit id="Oops! Firefox crashed" xml:space="preserve">
         <source>Oops! Firefox crashed</source>
-        <target>¡Vaya! Firefox se bloqueó</target>
+        <target>¡Vaya! Qwant se bloqueó</target>
         <note>Title for prompt displayed to user after the app crashes</note>
       </trans-unit>
       <trans-unit id="Open Settings" xml:space="preserve">
@@ -1852,7 +2214,7 @@
       </trans-unit>
       <trans-unit id="OpenURL.Error.Message" xml:space="preserve">
         <source>Firefox cannot open the page because it has an invalid address.</source>
-        <target>Firefox no pudo encontrar la página porque la dirección no es válida.</target>
+        <target>Qwant no pudo encontrar la página porque la dirección no es válida.</target>
         <note>The message displayed to a user when they try to open a URL that cannot be handled by Firefox, or any external app.</note>
       </trans-unit>
       <trans-unit id="OpenURL.Error.Title" xml:space="preserve">
@@ -1872,7 +2234,7 @@
       </trans-unit>
       <trans-unit id="PhotoLibrary.FirefoxWouldLikeAccessTitle" xml:space="preserve">
         <source>Firefox would like to access your Photos</source>
-        <target>A Firefox le gustaría acceder a tus fotos</target>
+        <target>A Qwant le gustaría acceder a tus fotos</target>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="PhotonMenu.close" xml:space="preserve">
@@ -2009,6 +2371,7 @@
       </trans-unit>
       <trans-unit id="ScanQRCode.PermissionError.Message.v100" xml:space="preserve">
         <source>Go to device ‘Settings’ &gt; ‘Firefox’. Allow Firefox to access camera.</source>
+        <target>Go to device ‘Settings’ &gt; ‘Qwant’. Allow Qwant to access camera.</target>
         <note>Text of the prompt to setup the camera authorization for the Scan QR Code feature.</note>
       </trans-unit>
       <trans-unit id="ScanQRCode.View.Title" xml:space="preserve">
@@ -2033,6 +2396,7 @@
       </trans-unit>
       <trans-unit id="Search.SuggestSectionTitle.v102" xml:space="preserve">
         <source>Firefox Suggest</source>
+        <target>Qwant Suggest</target>
         <note>When making a new search from the awesome bar, suggestions appear to the user as they write new letters in their search. Different types of suggestions can appear. This string will be used as a header to separate Firefox suggestions from normal suggestions.</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.AddMessage" xml:space="preserve">
@@ -2114,7 +2478,7 @@
       </trans-unit>
       <trans-unit id="Send a crash report so Mozilla can fix the problem?" xml:space="preserve">
         <source>Send a crash report so Mozilla can fix the problem?</source>
-        <target>¿Enviar un informe del fallo para que Mozilla resuelva el problema?</target>
+        <target>¿Enviar un informe del fallo para que Qwant resuelva el problema?</target>
         <note>Message displayed in the crash dialog above the buttons used to select when sending reports</note>
       </trans-unit>
       <trans-unit id="SendTo.Cancel.Button" xml:space="preserve">
@@ -2153,17 +2517,17 @@
       </trans-unit>
       <trans-unit id="SendTo.NoDevicesFound.Message" xml:space="preserve">
         <source>You don’t have any other devices connected to this Firefox Account available to sync.</source>
-        <target>No tienes otros dispositivos conectados a esta cuenta de Firefox que estén disponibles para sincronizarse.</target>
+        <target>No tienes otros dispositivos conectados a esta cuenta de Qwant que estén disponibles para sincronizarse.</target>
         <note>Error message shown in the remote tabs panel</note>
       </trans-unit>
       <trans-unit id="SendTo.NotSignedIn.Message" xml:space="preserve">
         <source>Please open Firefox, go to Settings and sign in to continue.</source>
-        <target>Abre Firefox, ve a Ajustes e inicia sesión para continuar.</target>
+        <target>Abre Qwant, ve a Ajustes e inicia sesión para continuar.</target>
         <note>See http://mzl.la/1ISlXnU</note>
       </trans-unit>
       <trans-unit id="SendTo.NotSignedIn.Title" xml:space="preserve">
         <source>You are not signed in to your Firefox Account.</source>
-        <target>No has iniciado sesión en tu cuenta de Firefox.</target>
+        <target>No has iniciado sesión en tu cuenta de Qwant.</target>
         <note>See http://mzl.la/1ISlXnU</note>
       </trans-unit>
       <trans-unit id="SendTo.SendAction.Text" xml:space="preserve">
@@ -2178,7 +2542,7 @@
       </trans-unit>
       <trans-unit id="SentTab.NoTabArrivingNotification.title" xml:space="preserve">
         <source>Firefox Sync</source>
-        <target>Firefox Sync</target>
+        <target>Qwant Sync</target>
         <note>Title of notification received after a spurious message from FxA has been received.</note>
       </trans-unit>
       <trans-unit id="SentTab.ViewAction.title" xml:space="preserve">
@@ -2298,7 +2662,7 @@
       </trans-unit>
       <trans-unit id="Settings.Disconnect.Body" xml:space="preserve">
         <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
-        <target>Firefox dejará de sincronizarse con tu cuenta, pero no eliminará la información de navegación en este dispositivo.</target>
+        <target>Qwant dejará de sincronizarse con tu cuenta, pero no eliminará la información de navegación en este dispositivo.</target>
         <note>Body of the alert when prompting the user asking to disconnect.</note>
       </trans-unit>
       <trans-unit id="Settings.Disconnect.Button" xml:space="preserve">
@@ -2407,7 +2771,7 @@
       </trans-unit>
       <trans-unit id="Settings.FxA.Title" xml:space="preserve">
         <source>Firefox Account</source>
-        <target>Cuenta de Firefox</target>
+        <target>Cuenta de Qwant</target>
         <note>Title displayed in header of the FxA settings panel.</note>
       </trans-unit>
       <trans-unit id="Settings.General.SectionName" xml:space="preserve">
@@ -2421,6 +2785,7 @@
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Description.v101" xml:space="preserve">
         <source>Choose what’s included on the Firefox homepage.</source>
+        <target>Choose what’s included on the Qwant homepage.</target>
         <note>In the settings menu, on the Firefox homepage customization section, this is the description below the section, describing what the options in the section are for.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.JumpBackIn" xml:space="preserve">
@@ -2464,7 +2829,7 @@
       </trans-unit>
       <trans-unit id="Settings.Home.Option.StartAtHome.Description" xml:space="preserve">
         <source>Choose what you see when you return to Firefox.</source>
-        <target>Elige que ver cuando regreses a Firefox.</target>
+        <target>Elige que ver cuando regreses a Qwant.</target>
         <note>In the settings menu, in the Start at Home customization options, this is text that appears below the section, describing what the section settings do.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.StartAtHome.Never" xml:space="preserve">
@@ -2488,14 +2853,17 @@
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Wallpaper.Accessibility.AmethystWallpaper.v99" xml:space="preserve">
         <source>Firefox wallpaper, amethyst pattern.</source>
+        <target>Qwant wallpaper, amethyst pattern.</target>
         <note>In the settings menu, on the Firefox wallpaper customization screen, this is the accessibility string for the amethyst firefox wallpaper.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Wallpaper.Accessibility.BeachHillsWallpaper.v100" xml:space="preserve">
         <source>Firefox wallpaper, beach hills pattern.</source>
+        <target>Qwant wallpaper, beach hills pattern.</target>
         <note>In the settings menu, on the Firefox wallpaper customization screen, this is the title accessibility string for the beach hills firefox wallpaper.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Wallpaper.Accessibility.CeruleanWallpaper.v99" xml:space="preserve">
         <source>Firefox wallpaper, cerulean pattern.</source>
+        <target>Qwant wallpaper, cerulean pattern.</target>
         <note>In the settings menu, on the Firefox wallpaper customization screen, this is the title accessibility string for the cerulean firefox wallpaper.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Wallpaper.Accessibility.DefaultWallpaper.v99" xml:space="preserve">
@@ -2504,6 +2872,7 @@
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Wallpaper.Accessibility.SunriseWallpaper.v99" xml:space="preserve">
         <source>Firefox wallpaper, sunrise pattern.</source>
+        <target>Qwant wallpaper, sunrise pattern.</target>
         <note>In the settings menu, on the Firefox wallpaper customization screen, this is the title accessibility string for the sunrise firefox wallpaper.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Wallpaper.Accessibility.ToggleButton" xml:space="preserve">
@@ -2512,6 +2881,7 @@
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Wallpaper.Accessibility.TwilightHillsWallpaper.v100" xml:space="preserve">
         <source>Firefox wallpaper, twilight hills pattern.</source>
+        <target>Qwant wallpaper, twilight hills pattern.</target>
         <note>In the settings menu, on the Firefox wallpaper customization screen, this is the title accessibility string for the twilight hills firefox wallpaper.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Wallpaper.CollectionTitle" xml:space="preserve">
@@ -2520,6 +2890,7 @@
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Wallpaper.SwitchTitle.v99" xml:space="preserve">
         <source>Change wallpaper by tapping Firefox homepage logo</source>
+        <target>Change wallpaper by tapping Qwant homepage logo</target>
         <note>In the settings menu, on the Firefox wallpaper customization screen, this is the string titling the switch button's function, which allows a user to toggle wallpaper switching from the homepage logo on or off.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Wallpaper.Title" xml:space="preserve">
@@ -2597,7 +2968,7 @@
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.FirefoxHome" xml:space="preserve">
         <source>Firefox Home</source>
-        <target>Inicio de Firefox</target>
+        <target>Inicio de Qwant</target>
         <note>Option in settings to show Firefox Home when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.HomePage" xml:space="preserve">
@@ -2632,7 +3003,7 @@
       </trans-unit>
       <trans-unit id="Settings.OfferClipboardBar.Status" xml:space="preserve">
         <source>When Opening Firefox</source>
-        <target>Al abrir Firefox</target>
+        <target>Al abrir Qwant</target>
         <note>Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349</note>
       </trans-unit>
       <trans-unit id="Settings.OfferClipboardBar.Title" xml:space="preserve">
@@ -2688,7 +3059,7 @@
       </trans-unit>
       <trans-unit id="Settings.SendUsage.Message" xml:space="preserve">
         <source>Mozilla strives to only collect what we need to provide and improve Firefox for everyone.</source>
-        <target>Mozilla se esfuerza para recopilar solo lo que necesita para poder ejecutar y mejorar Firefox para todos.</target>
+        <target>Qwant se esfuerza para recopilar solo lo que necesita para poder ejecutar y mejorar la navegación para todos.</target>
         <note>A short description that explains why mozilla collects usage data.</note>
       </trans-unit>
       <trans-unit id="Settings.SendUsage.Title" xml:space="preserve">
@@ -2718,7 +3089,7 @@
       </trans-unit>
       <trans-unit id="Settings.Siri.SectionDescription" xml:space="preserve">
         <source>Use Siri shortcuts to quickly open Firefox via Siri</source>
-        <target>Utilizar los atajos de Siri para abrir Firefox rápidamente vía Siri</target>
+        <target>Utilizar los atajos de Siri para abrir Qwant rápidamente vía Siri</target>
         <note>The description that describes what siri shortcuts are</note>
       </trans-unit>
       <trans-unit id="Settings.Siri.SectionName" xml:space="preserve">
@@ -2733,7 +3104,7 @@
       </trans-unit>
       <trans-unit id="Settings.Studies.Toggle.Message" xml:space="preserve">
         <source>Firefox may install and run studies from time to time.</source>
-        <target>Firefox podría instalar y ejecutar estudios de vez en cuando.</target>
+        <target>Qwant podría instalar y ejecutar estudios de vez en cuando.</target>
         <note>A short description that explains that Mozilla is running studies</note>
       </trans-unit>
       <trans-unit id="Settings.Studies.Toggle.Title" xml:space="preserve">
@@ -2911,17 +3282,17 @@
       </trans-unit>
       <trans-unit id="ShareExtension.LoadInBackgroundActionDone.Title" xml:space="preserve">
         <source>Loading in Firefox</source>
-        <target>Cargando en Firefox</target>
+        <target>Cargando en Qwant</target>
         <note>Share extension label shown after user has performed 'Load in Background' action.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.OpenInFirefoxAction.Title" xml:space="preserve">
         <source>Open in Firefox</source>
-        <target>Abrir en Firefox</target>
+        <target>Abrir en Qwant</target>
         <note>Action label on share extension to immediately open page in Firefox.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.SeachInFirefoxAction.Title" xml:space="preserve">
         <source>Search in Firefox</source>
-        <target>Buscar en Firefox</target>
+        <target>Buscar en Qwant</target>
         <note>Action label on share extension to search for the selected text in Firefox.</note>
       </trans-unit>
       <trans-unit id="Show Search Suggestions" xml:space="preserve">
@@ -3141,7 +3512,7 @@
       </trans-unit>
       <trans-unit id="UIMenuItem.SearchWithFirefox" xml:space="preserve">
         <source>Search with Firefox</source>
-        <target>Buscar con Firefox</target>
+        <target>Buscar con Qwant</target>
         <note>Search in New Tab Text selection menu item</note>
       </trans-unit>
       <trans-unit id="Upgrade.SyncSign.Action.v106" xml:space="preserve">
@@ -3205,7 +3576,7 @@
       </trans-unit>
       <trans-unit id="You don’t have any tabs open in Firefox on your other devices." xml:space="preserve">
         <source>You don’t have any tabs open in Firefox on your other devices.</source>
-        <target>No tienes ninguna pestaña abierta en Firefox en tus demás dispositivos.</target>
+        <target>No tienes ninguna pestaña abierta en Qwant en tus demás dispositivos.</target>
         <note>Error message in the remote tabs panel</note>
       </trans-unit>
       <trans-unit id="YouTube" xml:space="preserve">
@@ -3225,7 +3596,7 @@
       </trans-unit>
       <trans-unit id="fxa.signin.qr-link-instruction" xml:space="preserve">
         <source>On your computer open Firefox and go to firefox.com/pair</source>
-        <target>Abre Firefox en tu computador y ve a firefox.com/pair</target>
+        <target>Abre Qwant en tu computador y ve a qwant.com/pair</target>
         <note>FxA sign in view qr code instructions</note>
       </trans-unit>
       <trans-unit id="fxa.signin.ready-to-scan" xml:space="preserve">
@@ -3519,7 +3890,7 @@
       </trans-unit>
       <trans-unit id="Firefox won’t remember any of your history or cookies, but new bookmarks will be saved." xml:space="preserve">
         <source>Firefox won’t remember any of your history or cookies, but new bookmarks will be saved.</source>
-        <target>Firefox no recordará tu historial ni tus cookies, pero guardará los marcadores nuevos.</target>
+        <target>Qwant no recordará tu historial ni tus cookies, pero guardará los marcadores nuevos.</target>
         <note>Description text displayed when there are no open tabs while in private mode</note>
       </trans-unit>
       <trans-unit id="Learn More" xml:space="preserve">
@@ -3628,12 +3999,13 @@
       <trans-unit id="TodayWidget.ClosePrivateTabsLabelV2" xml:space="preserve">
         <source>Close
 Private Tabs</source>
-        <target>Cerrar pestañas privadas</target>
+        <target>Cerrar
+pestañas privadas</target>
         <note>Close Private Tabs</note>
       </trans-unit>
       <trans-unit id="TodayWidget.FirefoxShortcutGalleryDescription" xml:space="preserve">
         <source>Add Firefox shortcuts to your Home screen.</source>
-        <target>Añade atajos de Firefox a tu pantalla de inicio.</target>
+        <target>Añade atajos de Qwant a tu pantalla de inicio.</target>
         <note>Description for medium size widget to add Firefox Shortcut to home screen</note>
       </trans-unit>
       <trans-unit id="TodayWidget.GoToCopiedLinkLabelV1" xml:space="preserve">
@@ -3644,7 +4016,8 @@ Private Tabs</source>
       <trans-unit id="TodayWidget.GoToCopiedLinkLabelV2" xml:space="preserve">
         <source>Go to
 Copied Link</source>
-        <target>Ir al enlace copiado</target>
+        <target>Ir al
+enlace copiado</target>
         <note>Go to copied link</note>
       </trans-unit>
       <trans-unit id="TodayWidget.MoreTabsLabel" xml:space="preserve">
@@ -3664,7 +4037,7 @@ Copied Link</source>
       </trans-unit>
       <trans-unit id="TodayWidget.OpenFirefoxLabel" xml:space="preserve">
         <source>Open Firefox</source>
-        <target>Abrir Firefox</target>
+        <target>Abrir Qwant</target>
         <note>Open Firefox when there are no tabs opened in tab tray i.e. Empty State</note>
       </trans-unit>
       <trans-unit id="TodayWidget.PrivateTabButtonLabelV1" xml:space="preserve">
@@ -3674,7 +4047,7 @@ Copied Link</source>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickActionGalleryDescription" xml:space="preserve">
         <source>Add a Firefox shortcut to your Home screen. After adding the widget, touch and hold to edit it and select a different shortcut.</source>
-        <target>Agrega un acceso directo de Firefox a tu pantalla de inicio. Después de agregar el widget, selecciona y mantén pulsado para editarlo y seleccionar un acceso directo diferente.</target>
+        <target>Agrega un acceso directo de Qwant a tu pantalla de inicio. Después de agregar el widget, selecciona y mantén pulsado para editarlo y seleccionar un acceso directo diferente.</target>
         <note>Description for small size widget to add it to home screen</note>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickActionsGalleryTitle" xml:space="preserve">
@@ -3684,7 +4057,7 @@ Copied Link</source>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickActionsGalleryTitleV2" xml:space="preserve">
         <source>Firefox Shortcuts</source>
-        <target>Accesos directos de Firefox</target>
+        <target>Accesos directos de Qwant</target>
         <note>Firefox shortcuts title when widget enters edit mode. Do not translate the word Firefox.</note>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickViewGalleryDescriptionV2" xml:space="preserve">
@@ -3700,13 +4073,15 @@ Copied Link</source>
       <trans-unit id="TodayWidget.SearchInFirefoxV2" xml:space="preserve">
         <source>Search in
 Firefox</source>
-        <target>Buscar en Firefox</target>
+        <target>Buscar en
+Qwant</target>
         <note>Search in Firefox. Do not translate the word Firefox</note>
       </trans-unit>
       <trans-unit id="TodayWidget.SearchInPrivateTabLabelV2" xml:space="preserve">
         <source>Search in
 Private Tab</source>
-        <target>Buscar en pestaña privada</target>
+        <target>Buscar en
+pestaña privada</target>
         <note>Search in private tab</note>
       </trans-unit>
       <trans-unit id="TodayWidget.TopSitesGalleryDescription" xml:space="preserve">
@@ -3823,7 +4198,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="ctDNmu" xml:space="preserve">
         <source>Quick access to various Firefox actions</source>
-        <target>Acceso rápido a varias acciones de Firefox</target>
+        <target>Acceso rápido a varias acciones de Qwant</target>
         <note>Description of the collection of widgets</note>
       </trans-unit>
       <trans-unit id="eHmH1H" xml:space="preserve">
@@ -3885,7 +4260,7 @@ Private Tab</source>
     <body>
       <trans-unit id="Open Firefox" xml:space="preserve">
         <source>Open Firefox</source>
-        <target>Abrir Firefox</target>
+        <target>Abrir Qwant</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
     </body>
